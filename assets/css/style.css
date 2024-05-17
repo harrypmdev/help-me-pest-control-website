@@ -31,8 +31,8 @@ header {
     justify-content: space-between;
 }
 
-header a {
-    /* Stop header links changing style when clicked */
+a {
+    /* Stop links changing style when clicked */
     text-decoration: none;
     color: inherit;
 }
@@ -101,6 +101,31 @@ main {
     background: url("../images/pest-control-hero-two.webp") no-repeat center center / cover;
     width: 100%;
     height: 400px;
+    position: relative;
+}
+
+#call-us-box {
+    position: absolute;
+    color: black;
+    background-color: #E78895CC;
+    bottom: 10%;
+    text-align: center;
+    width: 80%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+
+}
+
+#call-us {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #abdbe3BC;
+    display: inline-block;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0px;
 }
 
 /* Footer */
