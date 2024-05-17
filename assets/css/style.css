@@ -10,6 +10,7 @@
 
 body {
     font-family: "Radio Canada Big", sans-serif;
+    color: #1f1f1f;
     /* Sets minimum viewport height and parent flex properties */
     min-height: 100vh;
     display: flex;
@@ -24,7 +25,7 @@ h1 {
 header {
     background-color: #E78895;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #1f1f1f;
     z-index: 99;
     padding: 0 1rem;
     position: fixed;
@@ -62,28 +63,38 @@ header a {
     padding-right: 18px;
 }
 
+/* Navbar */
 nav {
     /* Position navbar relative to header */
     position: absolute;
     background-color: #E78895;
     right: 0px;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #1f1f1f;
     display: none;
     top: 100%;
+    border-bottom-left-radius: 8px;
 }
 
 nav ul {
     letter-spacing: 2px;
     list-style-type: none;
-    padding: 0em 1.5em;
 }
 
 nav li {
-    margin-bottom: .5em;
+    padding: 0.3em 1.5em;
+}
+
+nav li:not(:last-child) {
+    border-bottom: 1.2px #1f1f1f solid;
+}
+
+nav li:hover:not(.active) {
+    background-color: #b64f5c;
 }
 
 .active {
-    /* to add */
+    background-color: #1f1f1f;
+    color: white;
 }
 
 /* Main */
