@@ -10,6 +10,10 @@
 
 body {
     font-family: "Radio Canada Big", sans-serif;
+    /* Sets minimum viewport height and parent flex properties */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -49,6 +53,8 @@ nav ul {
 /* Main */
 main {
     background-color: orange;
+    /* Child flex properties to fill page height */
+    flex: 1 0 auto;
 }
 
 /* Footer */
