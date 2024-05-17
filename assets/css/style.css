@@ -114,13 +114,15 @@ main {
     left:0;
     right:0;
     margin: 0 auto;
+    border-radius: 8px;
+    padding: 5px;
 
 }
 
 #call-us {
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #abdbe3BC;
+    background-color: #FFF7F1BC;
     display: inline-block;
     border: black 2px solid;
     border-radius: 8px;
