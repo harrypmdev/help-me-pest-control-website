@@ -54,7 +54,7 @@ header a {
     /*
     text-align: center;
     */
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #burger {
@@ -91,6 +91,7 @@ main {
     background-color: #FFF7F1;
     /* Child flex properties to fill page height */
     flex: 1 0 auto;
+    margin-top: 38px;
 }
 
 #hero {
