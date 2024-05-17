@@ -98,9 +98,9 @@ main {
 }
 
 #hero {
-    background: url("../images/pest-control-hero-image.webp") no-repeat center center/cover;
+    background: url("../images/pest-control-hero-two.webp") no-repeat center center / cover;
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 /* Footer */
@@ -144,5 +144,9 @@ footer {
 
     #burger {
         display: none;
+    }
+
+    #hero {
+        margin-top: 31px;
     }
 }
