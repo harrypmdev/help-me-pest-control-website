@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big&display=swap');
 
 /* General styles */
-body {
-    border-top: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Radio Canada Big", sans-serif;
 }
 
@@ -38,7 +42,16 @@ header a {
     padding-right: 18px;
 }
 
+nav ul {
+    display: none;
+}
+
 /* Main */
 main {
     background-color: orange;
+}
+
+/* Footer */
+footer {
+    background-color: lightgreen;
 }
