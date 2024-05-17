@@ -133,6 +133,42 @@ main {
 /* Footer */
 footer {
     background-color: #E78895;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+#bark-badge {
+    max-width:20vh;
+    border-radius: 50%;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+/* Hover effects for review companies to show user they are links */
+#bark-badge:hover {
+    box-shadow: 0 4px 4px #1f1f1f;
+    border: black 1px solid;
+}
+
+#review-companies {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#social-medias {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.social-icon {
+    color: white;
+    height: 100px;
+    padding: 5px;
 }
 
 /* Media query - tablets and larger (768px) */
