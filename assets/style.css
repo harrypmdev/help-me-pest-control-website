@@ -9,6 +9,10 @@ body {
 
 header {
     background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 header a {
@@ -16,8 +20,18 @@ header a {
     color: inherit;
 }
 
+main {
+    background-color: orange;
+}
+
 #logo {
     margin: 0;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 16px 20px 8px;
+    font-size: 2rem;
+}
+
+#burger {
+    font-size: 180%;
+    padding-right: 18px;
 }
