@@ -1,0 +1,23 @@
+/* Import Google font Radio Canada Big */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big&display=swap');
+
+body {
+    border-top: 0;
+    margin: 0;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+header {
+    background-color: lightcoral;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    margin: 0;
+    text-align: center;
+    padding: 20px 0px;
+}
