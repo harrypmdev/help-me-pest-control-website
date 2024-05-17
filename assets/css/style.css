@@ -55,7 +55,7 @@ nav ul {
 
 /* Main */
 main {
-    background-color: #FFE4C9;
+    background-color: #FFF7F1;
     /* Child flex properties to fill page height */
     flex: 1 0 auto;
 }
@@ -68,5 +68,5 @@ main {
 
 /* Footer */
 footer {
-    background-color: #BED1CF;
+    background-color: #E78895;
 }
