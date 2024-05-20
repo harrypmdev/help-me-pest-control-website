@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background-color: #E78895;
+    background-color: #ff474c;
     width: 100%;
     box-shadow: 0 2px 2px #1f1f1f;
     z-index: 99;
@@ -48,6 +48,7 @@ a {
 #logo {
     letter-spacing: 1px;
     font-size: 1.25em;
+    padding: 10px;
 }
 
 #burger {
@@ -59,7 +60,7 @@ a {
 nav {
     /* Position navbar relative to header */
     position: absolute;
-    background-color: #E78895;
+    background-color: #ff474c;
     right: 0px;
     box-shadow: 0 2px 2px #1f1f1f;
     display: none;
@@ -70,18 +71,25 @@ nav {
 #menu {
     letter-spacing: 2px;
     list-style-type: none;
+    line-height: 30px;
 }
 
-#menu li {
+#menu a {
+    height: 100%;
+    width: 100%;
     padding: 0.3em 1.5em;
+    display: block;
+    transition: background 1.5s ease;
+    transition: font-size 1.5s ease;
 }
 
 #menu li:not(:last-child) {
     border-bottom: 1.2px #1f1f1f solid;
 }
 
-#menu li:hover:not(.active) {
-    background-color: #b64f5c;
+#menu a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 108%;
 }
 
 .active {
@@ -107,7 +115,7 @@ main {
 #call-us-box {
     position: absolute;
     color: black;
-    background-color: #E78895CC;
+    background-color: #ff474cCC;
     bottom: 10%;
     text-align: center;
     width: 80%;
@@ -132,7 +140,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #E78895;
+    background-color: #ff474c;;
     display: flex;
     justify-content: space-evenly;
     padding: 8px;
@@ -177,6 +185,7 @@ footer {
     /* Header */
     header {
         justify-content: center;
+        background-color: white;
     }
 
     #logo {
@@ -192,6 +201,8 @@ footer {
         width: 100%;
         border-radius: 0px;
         display: block;
+        color: black;
+        background-color: #ff474c;
     }
     
     #menu {
@@ -203,8 +214,8 @@ footer {
 
     #menu li {
         width: 100%;
-        padding: 5px 0px;
         text-align: center;
+        display: inline-block;
     }
 
     #menu li:not(:last-child) {
@@ -214,5 +225,11 @@ footer {
     /* Main */
     #hero {
         margin-top: 31px;
+        height: 500px;
     }
 }
+
+/* Media query - laptops and larger (768px)
+@media screen and (min-width:768px) {
+]
+*/
