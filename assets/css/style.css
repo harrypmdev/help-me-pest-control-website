@@ -120,7 +120,7 @@ main {
     position: absolute;
     color: black;
     background-color: #ffffff99;
-    bottom: 10%;
+    bottom: 25%;
     text-align: center;
     width: 100%;
     left:0;
@@ -149,13 +149,24 @@ main {
 }
 
 /* Explainer section */
+
 #explainer h2 {
-    text-align: center;
     margin-top: 10px;
+    text-align: center;
 }
 #explainer ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+#explainer li {
+    margin: 3px 0px;
+    font-size: 150%;
+}
+
 
 /* Footer */
 footer {
