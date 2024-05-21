@@ -339,8 +339,9 @@ footer {
     #contact-information {
         position: absolute;
         left: auto;
-        right: 10%;
-        top: 20%;
-        width: 400px;
+        right: 6%;
+        bottom: auto;
+        top: 35%;
+        width: 300px;
     }
 }
