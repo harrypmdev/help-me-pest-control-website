@@ -178,11 +178,13 @@ main {
     background-color: rgba(255,255,255,0.1);
     background-blend-mode: lighten;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
-#query-box {
+.contact-boxes {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 20px;
@@ -207,6 +209,14 @@ main {
 #query {
     order: 1;
     height: 80px;
+}
+
+#contact-information {
+    margin-top: 10%;
+}
+
+#contact-information ul {
+    list-style-type: none;
 }
 
 /* Footer */
@@ -244,7 +254,6 @@ footer {
 .social-icon {
     color: white;
     padding: 10px 5px;
-
 }
 
 /* Media query - tablets and larger (768px) */
@@ -308,9 +317,16 @@ footer {
     #query-box {
         position: absolute;
         left: 5%;
+        top: 20%;
         width: 600px;
     }
 
+    #contact-information {
+        margin: 0;
+        position: absolute;
+        left: 5%;
+        bottom: 10%;
+        width: 400px;
 }
 
 /* Media query - laptops and larger (1028px) */
@@ -318,5 +334,13 @@ footer {
 
     #hero {
         /* Find way to stop top of image cropping */
+    }
+
+    #contact-information {
+        position: absolute;
+        left: auto;
+        right: 10%;
+        top: 20%;
+        width: 400px;
     }
 }
