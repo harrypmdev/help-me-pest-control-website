@@ -170,6 +170,43 @@ main {
     font-size: 150%;
 }
 
+/* Contact us page */
+#email-us {
+    background: url("../images/bookshelves.webp") no-repeat 50% / cover;
+    flex-grow: 1;
+    background-color: rgba(255,255,255,0.1);
+    background-blend-mode: lighten;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#query-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 3px;
+}
+
+#query-box input {
+    border-radius: 5px;
+}
+
+#query-box label, #query-box input, #query-box textarea{
+    display: block;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.regular-query-box {
+    height: 30px;
+}
+
+#query {
+    order: 1;
+    height: 80px;
+}
 
 /* Footer */
 footer {
@@ -265,6 +302,14 @@ footer {
     #call-us-option-two {
         display: inline;
     }
+
+    /* Contact us page */
+    #query-box {
+        position: absolute;
+        left: 5%;
+        width: 600px;
+    }
+
 }
 
 /* Media query - laptops and larger (1028px) */
