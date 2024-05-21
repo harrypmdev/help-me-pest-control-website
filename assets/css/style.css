@@ -116,13 +116,14 @@ main {
     height: 600px;
     background-color: rgba(255,255,255,0.1);
     background-blend-mode: lighten;
+    position: relative;
 }
 
 #call-us-box {
     position: absolute;
     color: white;
     background-color: #00000099;
-    bottom: 28%;
+    bottom: 10%;
     text-align: center;
     width: 100%;
     left:0;
@@ -135,11 +136,11 @@ main {
     text-transform: uppercase;
     background-color: #FFF7F100;
     display: inline-block;
-    border: black 2px solid;
+    border: white 2px solid;
     border-radius: 8px;
     padding: 10px;
     margin: 10px 0px;
-    transition: background 1.5s ease;
+    transition: opacity 1.5s ease;
 }
 
 #call-us-option-two {
@@ -147,7 +148,7 @@ main {
 }
 
 #call-us:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    opacity: 0.5;
 }
 
 /* Explainer section */
