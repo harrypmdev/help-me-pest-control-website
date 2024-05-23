@@ -102,10 +102,11 @@ nav {
 /* Main */
 main {
     background-color: #FFF7F1;
+    margin-top: 16px;
+    position: relative;
     /* Child flex properties to fill page height */
     flex: 1 0 auto;
-    margin-top: 38px;
-    position: relative;
+    /* Parent flex properties */
     display: flex;
     flex-direction: column;
 }
@@ -222,6 +223,25 @@ main {
     list-style-type: none;
 }
 
+/* Services page */
+    #services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 34px;
+    justify-content: space-evenly;
+    }   
+
+    #services > div {
+        background-color: rgba(0, 0, 0, 0.6);
+        border: solid red 1px;
+        display: inline-block;
+        color: white;
+        width: 300px;
+        padding: 30px;
+    }
+
 /* Footer */
 footer {
     background-color: #ff474c;
@@ -305,8 +325,12 @@ footer {
     }
 
     /* Main */
+
+    main {
+        margin-top: 32px;
+    }
+
     #hero {
-        margin-top: 31px;
         height: 700px;
     }
 
@@ -316,6 +340,11 @@ footer {
 
     #call-us-option-two {
         display: inline;
+    }
+
+    /* Services */
+    #services {
+        margin-top: 68px
     }
 
 }
