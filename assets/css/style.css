@@ -229,17 +229,65 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin-top: 34px;
+    margin-top: 30px;
     justify-content: space-evenly;
+    background: url(../images/mouse-hole.webp) center / cover;
+    height: 100%;
     }   
 
     #services > div {
         background-color: rgba(0, 0, 0, 0.6);
-        border: solid red 1px;
+        border: solid rgba(255, 255, 255, 0.6) 1px;
         display: inline-block;
         color: white;
-        width: 300px;
+        text-align: center;
         padding: 30px;
+        /* Child flex properties */
+        flex-basis: 700px;
+        flex-grow: 1;
+        /* Parent flex properties */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* Pest titles */
+    #services > div > h3 {
+        display: block;
+        flex-basis: 100%;
+        padding: 6px 0;
+        font-size: 200%;
+    }
+
+    /* Pest information */
+    #services > div > p {
+        flex-basis: 100%;
+        padding: 10px 0px 0px 20px;
+        font-size: 120%;
+    }
+
+    /* Pest images */
+    .pest-image {
+        display: block;
+        flex-basis: 100%;
+        margin-top: 12px;
+        border: solid rgba(255, 255, 255, 0.6) 3px;
+        border-radius: 50%;
+        width: 30%;
+    }
+
+    .pest-container {
+        flex-basis: 100%;
+        justify-content: center;
+        display: flex;
+        margin-top: 25px;
+    }
+
+    /* Pest videos */
+    .pest-video {
+        border: solid rgba(255, 255, 255, 0.6) 1px;
+        max-width: 100vw;
     }
 
 /* Footer */
@@ -347,6 +395,16 @@ footer {
         margin-top: 68px
     }
 
+    /* Contact us */
+
+    .pest-image {
+        flex-basis: 50%;
+        display: inline-block;
+    }
+
+    #services > div > p {
+        flex-basis: 50%;
+    }
 }
 
 /* Media query - laptops and larger (1028px) */
