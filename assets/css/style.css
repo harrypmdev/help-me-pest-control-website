@@ -185,6 +185,10 @@ main {
     position: relative;
 }
 
+#query-box {
+    margin-top: 80px;
+}
+
 .contact-boxes {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -235,7 +239,7 @@ main {
 }
 
 #contact-information {
-    margin-top: 10%;
+    margin: 5% 0;
 }
 
 #contact-information ul {
@@ -250,7 +254,7 @@ main {
     width: 100%;
     margin-top: 30px;
     justify-content: space-evenly;
-    background: url(../images/mouse-hole.webp) center / cover;
+    background: url(../images/mouse-hole.webp) 70% 30% / cover;
     height: 100%;
     }   
 
@@ -282,7 +286,7 @@ main {
     /* Pest information */
     #services > div > p {
         flex-basis: 100%;
-        padding: 10px 0px 0px 20px;
+        padding: 10px 0px 0px 10px;
         font-size: 120%;
     }
 
@@ -425,6 +429,7 @@ footer {
 
     #services > div > p {
         flex-basis: 50%;
+        padding: 10px 0px 0px 20px;
     }
 }
 
