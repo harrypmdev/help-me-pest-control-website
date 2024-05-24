@@ -205,6 +205,26 @@ main {
     width: 100%;
 }
 
+#query-box #submit {
+    height: 40px;
+    margin-top: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: rgba(255, 255, 255, 0.4) solid 2px;
+    box-shadow: 0 2px 2px #1f1f1f;
+    font-size: 1.25em;
+    transition: opacity.5s ease;
+}
+
+#query-box #submit:hover {
+    opacity: 0.7;
+}
+
 .regular-query-box {
     height: 30px;
 }

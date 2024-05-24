@@ -30,16 +30,18 @@
     <!-- Main content -->
     <main>
         <section id="email-us">
-            <div class="contact-boxes" id="query-box">
+            <!-- Email query box -->
+            <form action="https://formdump.codeinstitute.net" method="POST" class="contact-boxes" id="query-box">
                 <h2>Email us your query</h2>
                 <br>
-                <label>Your Email</label>
-                <input class="regular-query-box" type="email">
-                <label>Your Full Name</label>
-                <input class="regular-query-box" type="text">
-                <label>Your Query</label>
-                <textarea id="query" type="text"></textarea>
-            </div>
+                <label for="user-email">Your Email</label>
+                <input class="regular-query-box" type="email" name="user-email" required>
+                <label for="user-name">Your Full Name</label>
+                <input class="regular-query-box" type="text" name="user-name">
+                <label for="user-query">Your Query</label>
+                <textarea id="query" name="user-query" required></textarea>
+                <input id="submit" type="submit" value="Submit Query">
+            </form>
             <div class="contact-boxes" id="contact-information">
                 <h2>Contact Information</h2>
                 <ul>
