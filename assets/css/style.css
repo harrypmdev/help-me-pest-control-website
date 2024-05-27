@@ -153,22 +153,27 @@ main {
 }
 
 /* Pest links */
-#pest-links-title {
+#what-do-we-help-with {
+    box-shadow: 0 2px 8px #1f1f1f;
+    z-index: 2;
+}
+
+#what-do-we-help-with h2 {
     background-color: #ff474c;
     text-align: center;
     color: #1f1f1f;
     padding: 5px 0px;
 }
 
-#pest-links {
+#what-do-we-help-with div {
     display: flex;
     background-color: #ff474c;
     flex-wrap: wrap;
-    box-shadow: 0 2px 2px #1f1f1f;
     padding: 10px 0px;
+    z-index: 1;
 }
 
-#pest-links a {
+#what-do-we-help-with a {
     border: #1f1f1f solid 2px;
     color: #1f1f1f;
     text-align: center;
@@ -176,14 +181,14 @@ main {
     margin: 5px;
     border-radius: 5px;
     font-size: 1.25rem;
+    transition: opacity 1s ease;
+    text-transform: uppercase;
     /* Child flex properties */
     flex-basis: 150px;
     flex-grow: 1;
-    text-transform: uppercase;
-    transition: opacity 1s ease;
 }
 
-#pest-links a:hover {
+#what-do-we-help-with a:hover {
     opacity: 0.5;
 }
 
@@ -193,6 +198,7 @@ main {
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: lighten;
     text-align: center;
+    padding: 15px 0px;
 }
 
 #explainer a, #explainer h3 {
@@ -216,7 +222,13 @@ main {
     font-size: 1.4rem;
 }
 
-
+/* Map section */
+#map iframe {
+    width: 100%;
+    border: none;
+    height: 400px;
+    vertical-align: bottom;
+}
 
 /* Services page */
     #services {
