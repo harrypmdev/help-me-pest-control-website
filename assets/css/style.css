@@ -223,7 +223,7 @@ main {
 
 /* Map section */
 #map {
-    box-shadow: black 0px -8px 13px -6px;
+    box-shadow: black 0px -8px 13px -8px;
 }
 
 #map iframe {
@@ -408,7 +408,6 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    ;
     align-items: center;
     list-style-type: none;
 }
