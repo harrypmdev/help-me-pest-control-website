@@ -154,7 +154,7 @@ main {
 
 /* What do we help with section */
 #what-do-we-help-with {
-    box-shadow: 0 2px 8px #1f1f1f;
+    box-shadow: 0 0px 8px 2px #1f1f1f;
     z-index: 2;
 }
 
@@ -170,7 +170,6 @@ main {
     background-color: #ff474c;
     flex-wrap: wrap;
     padding: 10px 0px;
-    z-index: 1;
 }
 
 #what-do-we-help-with a {
@@ -223,6 +222,10 @@ main {
 }
 
 /* Map section */
+#map {
+    box-shadow: black 0px -8px 13px -6px;
+}
+
 #map iframe {
     width: 100%;
     border: none;
@@ -380,7 +383,6 @@ main {
 /* Footer */
 footer {
     background-color: #ff474c;
-    ;
     display: flex;
     justify-content: space-evenly;
     padding: 2px;
