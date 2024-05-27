@@ -152,6 +152,35 @@ main {
     opacity: 0.5;
 }
 
+/* Pest links */
+#pest-links {
+    display: flex;
+    background-color: #ff474c;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 50px;
+    box-shadow: 0 2px 2px #1f1f1f;
+}
+
+#pest-links a {
+    border: #1f1f1f solid 2px;
+    color: #1f1f1f;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    /* Child flex properties */
+    flex-basis: 150px;
+    flex-grow: 1;
+    text-transform: uppercase;
+    transition: opacity 1s ease;
+}
+
+#pest-links a:hover {
+    opacity: 0.5;
+}
+
 /* Explainer section */
 #explainer h2 {
     margin-top: 10px;
@@ -192,6 +221,8 @@ main {
         color: white;
         text-align: center;
         padding: 15px;
+        /* Make anchor links on index.html accurate */
+        scroll-margin-top: 5.5vh;
         /* Child flex properties */
         flex-basis: 500px;
         flex-grow: 1;
@@ -306,6 +337,7 @@ main {
 
 #query {
     height: 80px;
+    resize: none;
 }
 
 #contact-information {
@@ -419,6 +451,10 @@ footer {
     /* Services */
     #services {
         margin-top: 68px
+    }
+
+    #services div {
+        scroll-margin-top: 10vh;
     }
 
     /* Contact us */
