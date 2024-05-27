@@ -152,7 +152,7 @@ main {
     opacity: 0.5;
 }
 
-/* Pest links */
+/* What do we help with section */
 #what-do-we-help-with {
     box-shadow: 0 2px 8px #1f1f1f;
     z-index: 2;
@@ -181,7 +181,7 @@ main {
     margin: 5px;
     border-radius: 5px;
     font-size: 1.25rem;
-    transition: opacity 1s ease;
+    transition: background 1.5s ease;
     text-transform: uppercase;
     /* Child flex properties */
     flex-basis: 150px;
@@ -189,7 +189,7 @@ main {
 }
 
 #what-do-we-help-with a:hover {
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /* Explainer section */
