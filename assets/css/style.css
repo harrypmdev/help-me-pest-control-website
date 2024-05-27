@@ -153,12 +153,17 @@ main {
 }
 
 /* Pest links */
+#pest-links-title {
+    background-color: #ff474c;
+    text-align: center;
+    color: #1f1f1f;
+    padding: 5px 0px;
+}
+
 #pest-links {
     display: flex;
     background-color: #ff474c;
     flex-wrap: wrap;
-    overflow: hidden;
-    height: 50px;
     box-shadow: 0 2px 2px #1f1f1f;
 }
 
