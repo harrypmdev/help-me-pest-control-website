@@ -137,7 +137,7 @@ main {
     padding: 10px 0px;
 }
 
-#call-us {
+.call-us {
     font-weight: bold;
     text-transform: uppercase;
     background-color: #FFF7F100;
