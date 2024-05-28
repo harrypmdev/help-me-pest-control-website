@@ -83,7 +83,6 @@ nav {
     width: 100%;
     padding: 0.3em 1.5em;
     display: block;
-    /* Make hover styling ease in and out */
     transition: background 1.5s ease, font-size 1.5s ease;
 }
 
@@ -116,12 +115,14 @@ main {
 }
 
 #hero {
-    background: url("../images/wall-custom-cropped.webp") no-repeat 80% 50% / cover;
+    position: relative;
     width: 100%;
     height: 600px;
+    background: url("../images/wall-custom-cropped.webp") no-repeat 80% 50% / cover;
+    /* Tint background white */
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: lighten;
-    position: relative;
+
 }
 
 #call-us-box {
@@ -171,9 +172,10 @@ main {
 }
 
 #what-do-we-help-with div {
+    padding: 10px 0px 20px 0px;
+    /* Parent flex properties */
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0px 20px 0px;
 }
 
 #what-do-we-help-with a {
@@ -187,8 +189,7 @@ main {
     transition: background 1.5s ease;
     text-transform: uppercase;
     /* Child flex properties */
-    flex-basis: 150px;
-    flex-grow: 1;
+    flex: 1 150px;
 }
 
 #what-do-we-help-with a:hover {
@@ -197,20 +198,22 @@ main {
 
 /* Explainer section */
 #explainer {
-    background: url(../images/pier.webp) no-repeat center / cover;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-blend-mode: lighten;
     text-align: center;
     padding: 15px 0px;
+    background: url(../images/pier.webp) no-repeat center / cover;
+    /* Tint background white */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
 }
 
-#explainer a, #explainer h3 {
+#explainer a,
+#explainer h3 {
     margin: 10px 15px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
-    max-width: 400px; 
+    max-width: 400px;
     display: inline-block;
     line-height: 2;
     border-radius: 5px;
@@ -238,7 +241,7 @@ main {
 }
 
 /* Services page */
-    #services {
+#services {
     width: 100%;
     margin-top: 30px;
     background: url(../images/mouse-hole.webp) 70% 30% / cover;
@@ -248,83 +251,80 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    }   
+}
 
-    #services > div {
-        background-color: rgba(0, 0, 0, 0.6);
-        border: solid rgba(255, 255, 255, 0.6) 1px;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 15px;
-        /* Make anchor links on index.html accurate */
-        scroll-margin-top: 5.5vh;
-        /* Child flex properties */
-        flex-basis: 500px;
-        flex-grow: 1;
-        /* Parent flex properties */
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-    }
+#services>div {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: solid rgba(255, 255, 255, 0.6) 1px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    /* Make anchor links on index.html accurate */
+    scroll-margin-top: 5.5vh;
+    /* Child flex properties */
+    flex: 1 500px;
+    /* Parent flex properties */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
-    /* Pest titles */
-    #services > div > h3 {
-        display: block;
-        flex-basis: 100%;
-        padding: 6px 0;
-        font-size: 200%;
-    }
+#services>div>h3 {
+    display: block;
+    padding: 6px 0;
+    font-size: 200%;
+    /* Child flex properties */
+    flex: 100%;
+}
 
-    /* Pest information */
-    #services > div > p {
-        flex-basis: 100%;
-        padding: 10px 0px 0px 10px;
-        font-size: 120%;
-    }
+#services>div>p {
+    padding: 10px 0px 0px 10px;
+    font-size: 120%;
+    /* Child flex properties */
+    flex: 100%;
+}
 
-    /* Pest images */
-    .pest-image {
-        display: block;
-        flex-basis: 100%;
-        margin-top: 12px;
-        border: solid rgba(255, 255, 255, 0.6) 3px;
-        border-radius: 50%;
-        width: 30%;
+.pest-image {
+    display: block;
+    margin-top: 12px;
+    border: solid rgba(255, 255, 255, 0.6) 3px;
+    border-radius: 50%;
+    width: 30%;
+    /* Child flex properties */
+    flex: 100%;
+}
 
-    }
+.pest-container {
+    margin-top: 25px;
+    /* Child flex properties */
+    flex-basis: 100%;
+    /* Parent flex properties to center video*/
+    display: flex;
+    justify-content: center;
+}
 
-    /* Div container for video so it can be centered */
-    .pest-container {
-        flex-basis: 100%;
-        justify-content: center;
-        display: flex;
-        margin-top: 25px;
-    }
-
-    /* Pest videos */
-    .pest-video {
-        border: solid rgba(255, 255, 255, 0.6) 1px;
-        aspect-ratio: 16/ 9;
-        width: 95%;
-    }
+.pest-video {
+    border: solid rgba(255, 255, 255, 0.6) 1px;
+    aspect-ratio: 16/ 9;
+    width: 95%;
+}
 
 /* Contact us page */
 #contact-options {
+    position: relative;
     background: url("../images/bookshelves.webp") no-repeat 50% / cover;
-    flex-grow: 1;
+    /* Tint background white */
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: lighten;
+    /* Child flex properties */
+    flex: 1;
+    /* Parent flex properties */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-}
-
-#query-box {
-    margin-top: 80px;
 }
 
 .contact-boxes {
@@ -335,16 +335,18 @@ main {
     border-radius: 3px;
 }
 
-#query-box input {
-    border-radius: 5px;
+#query-box {
+    margin-top: 80px;
 }
 
 #query-box label,
 #query-box input,
-#query-box textarea {
+#query {
     display: block;
     margin: 5px 0px;
     width: 100%;
+    height: 30px;
+    border-radius: 5px;
 }
 
 #query-box #submit {
@@ -360,15 +362,11 @@ main {
     border: rgba(255, 255, 255, 0.4) solid 2px;
     box-shadow: 0 2px 2px #1f1f1f;
     font-size: 1.25em;
-    transition: opacity.5s ease;
+    transition: opacity 0.5s ease;
 }
 
 #query-box #submit:hover {
     opacity: 0.7;
-}
-
-.regular-query-box {
-    height: 30px;
 }
 
 #query {
@@ -387,17 +385,19 @@ main {
 /* Footer */
 footer {
     background-color: #ff474c;
+    padding: 2px;
+    /* Parent flex properties */
     display: flex;
     justify-content: space-evenly;
-    padding: 2px;
 }
 
 #social-medias {
     width: 100%;
+    list-style-type: none;
+    /* Parent flex properties */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style-type: none;
 }
 
 .social-icon {
@@ -449,7 +449,6 @@ footer {
     }
 
     /* Main */
-
     main {
         margin-top: 32px;
     }
@@ -472,19 +471,21 @@ footer {
     }
 
     #services div {
+        /* Make anchor links on index.html accurate */
         scroll-margin-top: 10vh;
     }
 
     /* Contact us */
-
     .pest-image {
-        flex-basis: 50%;
         display: inline-block;
+        /* Child flex properties */
+        flex: 50%
     }
 
-    #services > div > p {
-        flex-basis: 50%;
+    #services>div>p {
         padding: 10px 0px 0px 20px;
+        /* Child flex properties */
+        flex: 50%
     }
 }
 
@@ -495,8 +496,8 @@ footer {
         width: 40%;
     }
 
-     #contact-information {
+    #contact-information {
         margin-top: 4%;
         width: 40%;
-     }
+    }
 }
