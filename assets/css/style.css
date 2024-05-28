@@ -11,8 +11,9 @@
 body {
     font-family: "Radio Canada Big", sans-serif;
     color: #1f1f1f;
-    /* Sets minimum viewport height and parent flex properties */
+    /* Set minimum viewport height */
     min-height: 100vh;
+    /* Parent flex properties */
     display: flex;
     flex-direction: column;
 }
@@ -25,7 +26,7 @@ header {
     z-index: 99;
     padding: 0 1rem;
     position: fixed;
-    /* Flex display to put header and burger in row */
+    /* Parent flex properties */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,10 +39,12 @@ a {
 }
 
 #toggle-navbar {
+    /* Hide burger checkbox */
     display: none;
 }
 
 #toggle-navbar:checked~nav {
+    /* Display nav dropdown if burger is clicked */
     display: block;
 }
 
@@ -58,14 +61,15 @@ a {
 
 /* Navbar */
 nav {
-    /* Position navbar relative to header */
-    position: absolute;
     background-color: #ff474c;
-    right: 0px;
     box-shadow: 0 2px 2px #1f1f1f;
-    display: none;
-    top: 100%;
     border-bottom-left-radius: 8px;
+    /* Do not display by default, display toggled by burger */
+    display: none;
+    /* Position navbar relative to header */
+    right: 0px;
+    position: absolute;
+    top: 100%;
 }
 
 #menu {
@@ -79,17 +83,17 @@ nav {
     width: 100%;
     padding: 0.3em 1.5em;
     display: block;
-    /* Makes hover styling ease in and out */
+    /* Make hover styling ease in and out */
     transition: background 1.5s ease, font-size 1.5s ease;
 }
 
-/* Adds border lines separating navbar options */
 #menu li:not(:last-child) {
+    /* Add border lines separating navbar options */
     border-bottom: 1.2px #1f1f1f solid;
 }
 
-/* Hover styling for navbar links */
 #menu a:hover:not(.active) {
+    /* Hover styling for navbar links except current page*/
     background: rgba(0, 0, 0, 0.2);
     font-size: 108%;
 }
@@ -307,7 +311,7 @@ main {
     }
 
 /* Contact us page */
-#email-us {
+#contact-options {
     background: url("../images/bookshelves.webp") no-repeat 50% / cover;
     flex-grow: 1;
     background-color: rgba(255, 255, 255, 0.1);
@@ -386,22 +390,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2px;
-}
-
-#bark-badge {
-    max-width: 20vh;
-    border-radius: 50%;
-    background-color: white;
-    width: auto;
-    height: auto;
-    /* to be amended */
-}
-
-#review-companies {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    display: none;
 }
 
 #social-medias {
