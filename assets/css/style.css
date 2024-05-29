@@ -244,7 +244,7 @@ main {
 #services {
     width: 100%;
     margin-top: 30px;
-    background: url(../images/mouse-hole.webp) 70% 30% / cover;
+    background: url(../images/pest-paper.webp) center / cover;
     height: 100%;
     /* Parent flex properties */
     display: flex;
