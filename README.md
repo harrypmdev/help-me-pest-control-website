@@ -187,7 +187,9 @@ Services |Click video|Embedded videos play correctly|
 Query|Click submit with no data inputted|User told to fill required forms
 ||Click submit with relevant data inputted|Data submitted to code institute form dump
 
+## Lighthouse analysis
 
+The Lighthouse feature is included in Google Chrome's DevTools to assess 
 
 
 ### Validator Testing 
