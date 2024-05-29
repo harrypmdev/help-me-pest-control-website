@@ -196,8 +196,8 @@ main {
     background: rgba(0, 0, 0, 0.2);
 }
 
-/* Explainer section */
-#explainer {
+/* Reviews section */
+#reviews {
     text-align: center;
     padding: 15px 0px;
     background: url(../images/pier.webp) no-repeat center / cover;
@@ -206,8 +206,8 @@ main {
     background-blend-mode: lighten;
 }
 
-#explainer a,
-#explainer h3 {
+#reviews a,
+#reviews h3 {
     margin: 10px 15px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -220,11 +220,11 @@ main {
     transition: background-color 1s ease;
 }
 
-#explainer a:hover {
+#reviews a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-#explainer h3 {
+#reviews h3 {
     font-size: 1.4rem;
 }
 
