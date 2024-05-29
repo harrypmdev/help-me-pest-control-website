@@ -1,8 +1,8 @@
 # Help Me Pest Control
 
-Help Me Pest Control is a website to inform users of common pest issues and how they can seek help through Help Me Pest Control Ltd based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
+Help Me Pest Control is a website to inform users of common pest issues and how they can seek help through the company Help Me Pest Control Ltd based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
 
-![Responsive Mockup](/assets/images/Responsive.png)
+![Responsive Mockup](/assets/documentation/responsive.png)
 
 ## Features 
 
@@ -11,39 +11,39 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 
 - __Navigation Bar__
 
-![Nav Bar]()
+![Nav Bar](/assets/documentation/navbar.png)
 
-- __The landing page image__
+- __Hero image__
 
- 
+![Hero image](/assets/documentation/hero.png)
 
-![Landing Page]()
+- __What do we help with pest information links__
 
-- __Club Ethos Section__
+![What do we help with](/assets/documentation/what-do-we-help-with.png)
 
+- __Reviews__
 
-![Club Ethos]()
+![Reviews](/assets/documentation/reviews.png)
 
-- __Meetup Times section__
+- __Map__
 
+![Map](/assets/documentation/map.png)
 
-![Meetup Times]()
+- __Footer__
 
-- __The Footer__ 
+![Footer](/assets/documentation/footer.png)
 
+- __Services__
 
-![Footer]()
+![Services](/assets/documentation/services.png)
 
-- __Gallery__
+- __Submit Email Query Box__
 
+![Query](/assets/documentation/query.png)
 
-![Gallery]()
+- __Contact information__
 
-- __The Sign Up Page__
-
-
-![Sign Up]()
-
+![Contact information](/assets/documentation/contact-information.png)
 
 ### Features Left to Implement
 
