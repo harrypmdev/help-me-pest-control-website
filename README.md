@@ -187,9 +187,29 @@ Services |Click video|Embedded videos play correctly|
 Query|Click submit with no data inputted|User told to fill required forms
 ||Click submit with relevant data inputted|Data submitted to code institute form dump
 
-## Lighthouse analysis
+## Lighthouse Testing
 
-The Lighthouse feature is included in Google Chrome's DevTools to assess 
+The Lighthouse feature is included in Google Chrome's DevTools to assess performance, accessibility, best practices and SEO (search engine optimisation).
+
+The site was tested with Lighthouse and received the following results:
+
+![Lighthouse Results](/assets/documentation/help-me-pest-control-lighthouse.png)
+
+- #### Performance - 93
+    - The site peformance is 93, which means it overall had good performance. 
+    - The performance was slightly hindered by the quality of the hero image. The hero image was optimised to improve from a prior lower score, but beyond 93 compressions start to impact the quality visually for the user. Other optimisations may be found to improve the performance.
+
+- #### Accessibility - 100
+    - Lighthouse rates the site perfect for accessibility. 
+    - It previously docked points because the social media links did not have labels and the map iframe did not have a title. These were amended to improve the accessibility.
+
+- #### Best practices - 100
+    - Lighthouse rates the site perfect for best practices. This score shares some overlap with the other ratings.
+
+- #### SEO - 100
+    - Lighthouse rates the site perfect for SEO. This is bolstered by the favicon, meta description and semantic HTML.
+
+It is of course important to note that Lighthouse is an automated anaylsis and improvements can likely be made to all four metrics.
 
 
 ### Validator Testing 
