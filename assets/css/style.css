@@ -200,7 +200,7 @@ main {
 #reviews {
     text-align: center;
     padding: 15px 0px;
-    background: url(../images/pier.webp) no-repeat center / cover;
+    background: url(../images/pier-sussex.webp) no-repeat center / cover;
     /* Tint background white */
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;

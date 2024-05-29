@@ -244,7 +244,9 @@ The live link can be found here - https://harrypmdev.github.io/help-me-pest-cont
 Some images to be changed before project submission
 
 The following images are under a free license:
-- bookshelves.webp image by <a href="https://www.freepik.com/free-photo/person-disinfecting-dangerous-area-while-wearing-protective-suit_12354032.htm#query=pest%20control&position=9&from_view=keyword&track=ais_user&uuid=74b5962d-b2ae-414e-9ccf-92a90d5b4e91">Freepik</a>
-- wall-custom-cropped-lossy.webp by Image by <a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#page=2&position=44&from_view=collections&uuid=da580347-fa2d-42d1-a86d-b786c9ae3b06">Freepik</a>
+- bookshelves.webp image from <a href="https://www.freepik.com/free-photo/person-disinfecting-dangerous-area-while-wearing-protective-suit_12354032.htm#query=pest%20control&position=9&from_view=keyword&track=ais_user&uuid=74b5962d-b2ae-414e-9ccf-92a90d5b4e91">Freepik</a>
+- wall-custom-cropped-lossy.webp from <a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#page=2&position=44&from_view=collections&uuid=da580347-fa2d-42d1-a86d-b786c9ae3b06">Freepik</a>
+- pest-paper.webp image from <a href="https://www.freepik.com/free-photo/nurse-wears-protective-suit-mask-covid19-outbreak_10167009.htm#position=2">Freepik</a>
+- pier-sussex.webp image from <a href="https://www.freepik.com/free-photo/scenic-wooden-bridge-stretching-duxbury-bay_19441916.htm#fromView=search&page=1&position=38&uuid=fa6587fe-a7aa-4c96-b383-1cad86fb04a0">Freepik</a>
 
 ## Other General Project Advice
