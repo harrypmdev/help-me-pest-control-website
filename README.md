@@ -1,7 +1,7 @@
-# Love Running
+# Help Me Pest Control
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](/assets/images/Responsive.png)
 
 ## Features 
 
@@ -12,38 +12,38 @@
 
  
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page image__
 
  
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
 - __Club Ethos Section__
 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos]()
 
 - __Meetup Times section__
 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times]()
 
 - __The Footer__ 
 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]()
 
 - __Gallery__
 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery]()
 
 - __The Sign Up Page__
 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up]()
 
 
 ### Features Left to Implement
