@@ -129,7 +129,13 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 Help Me Pest Control is a functional and complete website. There are however some features that can be implented in future to improve user experience.
 
 1. **Automated email queries:**
-    - Include a button inside each division of the services section that links to the contact-us page and automatically fills the email query text area with a request for help with that 
+    - Include a button inside each pest division of the services section that links to the contact us page and automatically fills the email query text area with a request for help that matches the pest in question.
+2. **About staff section:**
+    - Include a section that information and pictures of the staff to users so they are familiar with the staff members are given a more personal experience.
+3. **Accolades/awards section:**
+    - List the several accolades/awards won by the company, perhaps as logos that link to the respective award site.
+4. **Interactive pricing section:**
+    - An interactive section in which your pest concern can be inputted and an approximate price will be generated according to how much your issue is likely to cost.
 
 ## Testing 
 
