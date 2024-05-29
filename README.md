@@ -124,8 +124,12 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 </details>
 <hr>
 
-### Features Left to Implement
+## Features Left to Implement
 
+Help Me Pest Control is a functional and complete website. There are however some features that can be implented in future to improve user experience.
+
+1. **Automated email queries:**
+    - Include a button inside each division of the services section that links to the contact-us page and automatically fills the email query text area with a request for help with that 
 
 ## Testing 
 
