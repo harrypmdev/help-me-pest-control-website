@@ -214,9 +214,11 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
 
 ### Validator Testing 
 
-- HTML
+#### HTML
+- No errors returned using [W3C Validator](https://validator.w3.org/)
 
-- CSS
+#### CSS
+- No errors returned using [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 
 ### Unfixed Bugs
