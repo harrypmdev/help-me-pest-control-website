@@ -146,11 +146,48 @@ Help Me Pest Control is a functional and complete website. There are however som
 4. **Interactive pricing section:**
     - An interactive section in which your pest concern can be inputted and an approximate price will be generated according to how much your issue is likely to cost.
 
-## Testing 
+## Manual Testing 
 
-###  Feature testing on mobile screen size
+###  Feature testing specific to mobile screen size
 
-The site has been tested on mobile, tablet, and laptop/PC screen sizes.
+The site has been tested on mobile, tablet, and laptop/PC screen sizes. The following is testing done on an Iphone XR (414x896) screen simulator, though other mobile screen sizes have been tried.
+
+|  Feature |  Testing action | Outcome |
+|---|---|---|
+Navbar|Click on burger|Menu opens|
+Hero image| Click on 'CALL US NOW'|Phone app opens|
+Services|Scroll through section|All pest divisons display vertically and are readable|
+<br>
+
+### Feature testing specific to tablet screen size and larger
+
+The following is testing done on an iPad Air (1180x820) and regular desktop screen size, though other tablet and PC screen sizes have been tried.
+
+|  Feature |  Testing action | Outcome |
+|---|---|---|
+Navbar|Hover over navbar links|Link colour temporarily changes and text enlarges|
+Hero image|Hover over 'GET IN TOUCH'|Link temporarily fades in opacity|
+||Click on 'GET IN TOUCH'|Contact us page opens|
+'What do we help with' section|Hover over pest links|Links temporarily fade in opacity|
+Reviews|Hover over individual reviews|Reviews temporarily fade in opacity, mouse changes to pointer to indicate reviews are links|
+Services|Scroll through section|As many pest divisions as can fit display horizontally, then divisions display in rows vertically
+<br>
+
+### Feature testing generic to all screen sizes
+
+The following testing should not change outcome based on screen size, but has been tried on phone, tablet and laptop/PC screen sizes regardless.
+
+|  Feature |  Testing action | Outcome |
+|---|---|---|
+|Navbar |Click on menu link|Relevant page opens|
+'What do we help with' section|Click pest links|Relevant part of services page opens|
+Map|Attempt to move map frame|Embedded page functionality tells user to use two fingers|
+Footer|Click social media links|Relevant social media page opens
+Services |Click video|Embedded videos play correctly|
+Query|Click submit with no data inputted|User told to fill required forms
+||Click submit with relevant data inputted|Data submitted to code institute form dump
+
+
 
 
 ### Validator Testing 
