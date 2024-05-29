@@ -12,13 +12,22 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 
 - The navbar is at the top of all pages and contains a link respective to each page.
 - It allows for easy navigation of the website without reliance on browser features such as the 'back' or 'forwards' buttons.
+- The navbar is condensed into a burger for mobile screen sizes
 
 <details>
-<summary>Navbar screenshot</summary>
+<summary> Navbar screenshot (mobile)</summary>
+
+![Nav Bar Mobile](/assets/documentation/mobile-navbar.png)
+
+</details>
+
+<details>
+<summary>Navbar screenshot (desktop)</summary>
 
 ![Nav Bar](/assets/documentation/navbar.png)
 
 </details>
+
 <hr>
 
 **Hero image**
@@ -124,7 +133,7 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 </details>
 <hr>
 
-## Features Left to Implement
+## Features Yet to be Implemented
 
 Help Me Pest Control is a functional and complete website. There are however some features that can be implented in future to improve user experience.
 
@@ -138,6 +147,11 @@ Help Me Pest Control is a functional and complete website. There are however som
     - An interactive section in which your pest concern can be inputted and an approximate price will be generated according to how much your issue is likely to cost.
 
 ## Testing 
+
+###  Feature testing on mobile screen size
+
+The site has been tested on mobile, tablet, and laptop/PC screen sizes.
+
 
 ### Validator Testing 
 
