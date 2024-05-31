@@ -1,7 +1,7 @@
 # Help Me Pest Control
 
 
-Help Me Pest Control is a website to inform users of common pest issues and how they can seek help through the company Help Me Pest Control Ltd based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
+**Help Me Pest Control** is a website to inform users of common pest issues and how they can seek help through the company Help Me Pest Control Ltd based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
 
 ![Responsive Mockup](/assets/documentation/responsive.png)
 
@@ -97,7 +97,7 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 
 **Services**
 
-- The services section lists all of the pest control services that Help Me Pest Control provides. It shows an image, basic information, and a video to help users understand the nature of these pest concerns.
+- The services section lists all of the pest control services that **Help Me Pest Control** provides. It shows an image, basic information, and a video to help users understand the nature of these pest concerns.
 
 <details>
 <summary>Services screenshot</summary>
@@ -193,23 +193,63 @@ The Lighthouse feature is included in Google Chrome's DevTools to assess perform
 
 The site was tested with Lighthouse and received the following results:
 
-![Lighthouse Results](/assets/documentation/help-me-pest-control-lighthouse.png)
+### Index Page
+
+![index.html Lighthouse Results](/assets/documentation/index-lighthouse.png)
 
 - #### Performance - 93
-    - The site peformance is 93, which means it overall had good performance. 
+    - The page peformance is 93, which means it overall had good performance. 
     - The performance was slightly hindered by the quality of the hero image. The hero image was optimised to improve from a prior lower score, but beyond 93 compressions start to impact the quality visually for the user. Other optimisations may be found to improve the performance.
 
 - #### Accessibility - 100
-    - Lighthouse rates the site perfect for accessibility. 
+    - Lighthouse rates the page perfect for accessibility. 
     - It previously docked points because the social media links did not have labels and the map iframe did not have a title. These were amended to improve the accessibility.
 
 - #### Best practices - 100
-    - Lighthouse rates the site perfect for best practices. This score shares some overlap with the other ratings.
+    - Lighthouse rates the page perfect for best practices. This score shares some overlap with the other ratings.
 
 - #### SEO - 100
-    - Lighthouse rates the site perfect for SEO. This is bolstered by the favicon, meta description and semantic HTML.
+    - Lighthouse rates the page perfect for SEO. This is bolstered by the favicon, meta description and semantic HTML.
 
-It is of course important to note that Lighthouse is an automated anaylsis and improvements can likely be made to all four metrics.
+### Services Page
+
+![services.html Lighthouse Results](/assets/documentation/services-lighthouse.png)
+
+- #### Performance - 90
+    - The page peformance is 90, which means it overall had good performance. 
+    - Like the index page, the performance is hindered by the hero image. It is slightly lower, likely due to the embedded Youtube videos and higher quantity of images. The videos could potentially be hosted with the site to improve performance.
+
+- #### Accessibility - 100
+    - Lighthouse rates the page perfect for accessibility. 
+    - It previously docked points as the Youtube iframes did not have titles. This was amended.
+
+- #### Best practices - 100
+    - Lighthouse rates the page perfect for best practices.
+
+- #### SEO - 100
+    - Lighthouse rates the page perfect for SEO.
+
+
+### Contact Us Page
+
+![contact-us.html Lighthouse Results](/assets/documentation/contact-us-lighthouse.png)
+
+- #### Performance - 91
+    - The site peformance is 91, which means it overall had good performance. 
+    - Like index.html and services.html, the performance was slightly hindered by the quality of the hero image.
+
+- #### Accessibility - 100
+    - Lighthouse rates the site perfect for accessibility. 
+
+- #### Best practices - 100
+    - Lighthouse rates the site perfect for best practices.
+
+- #### SEO - 100
+    - Lighthouse rates the site perfect for SEO.
+    
+<br>
+
+**It is of course important to note that Lighthouse is an automated anaylsis and improvements can likely be made to all four metrics for each page.**
 
 
 ## Validator Testing 
@@ -315,7 +355,7 @@ All content apart from where stated below is my own work.
 
 ### Content 
 
-- All social media pages and branding belongs to Help Me Pest Control Limited for whom the website was built with the consent of the company owner.
+- All social media pages and branding belongs to **Help Me Pest Control Limited** for whom the website was built with the consent of the company owner.
 - All font awesome icons including bug-favicon.svg from <a href="https://fontawesome.com/v4/license/">Font Awesome by Dave Gandy.</a>
 - Reviews section links to reviews hosted publicly by Google. Google fonts also from Google are imported on style.css line 1. Map is embedded link provided by Google Maps.
 - Services section pest videos are public Youtube videos hosted by Youtube and utilised with embedded links provided by Youtube.
