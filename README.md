@@ -43,7 +43,7 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 </details>
 <hr>
 
-**What Do We Help With Section**
+**What do we help with section**
 
 - The 'what do we help with' section includes six links to pest information. This information can be found in full on the services page. The buttons name six common pests so that users who have come to the site with a specific pest in mind are quickly shown that they are in the right place for these pests and presented with a link to more information.
 - The section separates the hero image and reviews background image to maintain a professional appearance, using the website colours from the navbar and footer to make sure the theme is maintained.
