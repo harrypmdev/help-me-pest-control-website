@@ -271,7 +271,7 @@ main {
     align-items: center;
 }
 
-#services>div>h3 {
+#services>div>h2 {
     display: block;
     padding: 6px 0;
     font-size: 200%;
