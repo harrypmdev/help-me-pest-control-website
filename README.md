@@ -223,9 +223,66 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
 
 ## Bugs
 
-|  Feature |  Testing action | Outcome |
+|  Bug Number |  Problem | Outcome |
 |---|---|---|
-|Navbar |Click on menu 
+|1 |WAVE evaluator shows empty form label | Fixed
+|2 |Services images not appearing as circles | Fixed
+3 | Services videos not appearing correctly | Fixed
+||||
+
+<br>
+
+**1.**
+- The WAVE evaluator showed an empty form label for the label associated with the burger checkbox.
+    <details>
+    <summary>Bug one WAVE error</summary>
+
+    ![bug-one](/assets/documentation/bug-one.png)
+
+    </details>
+- This is a downside of using only HTML and CSS for a menu burger rather than Javascript.
+- An aria-label was added to the label.
+    <details>
+    <summary>Bug one WAVE solved</summary>
+
+    ![bug-one-solved](/assets/documentation/zero-errors.png)
+
+    </details>
+
+**2.**
+- The images in the services.html pests flexbox sometimes appeared as either vertical or horizontal ovals despite the intention for them to be perfect circles.
+    <details>
+    <summary>Bug two</summary>
+
+    ![bug-two](/assets/documentation/bug-two.png)
+
+    </details>
+- Setting the border radius property of an element to 50% does not inherently make the image a circle if the image is not a square.
+- Complex solutions may be available, considering the project scope the images were simply cropped to be perfect squares.
+    <details>
+    <summary>Bug two solved</summary>
+
+    ![bug-two-solved](/assets/documentation/bug-two-fixed.png)
+
+    </details>
+
+**3.**
+- The Youtube videos in the services.html pests flexbox appeared either on the left side of the flexbox only, if with large black bars on either side of the video if it was stretched to the full side of the flexbox.
+    <details>
+    <summary>Bug three</summary>
+
+    ![bug-three](/assets/documentation/bug-three.png)
+
+    </details>
+- Embedded Youtube videos do not behave exactly like text.
+- Putting the Youtube video inside another flexbox div and setting its flex properties so that the video appeared in the center solved the problem
+    <details>
+    <summary>Bug three solved</summary>
+
+    ![bug-three-solved](/assets/documentation/bug-three-fixed.png)
+
+    </details>
+
 
 ## Deployment
 
