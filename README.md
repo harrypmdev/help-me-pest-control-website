@@ -235,32 +235,38 @@ The live link can be found here - https://harrypmdev.github.io/help-me-pest-cont
 
 ## Credits 
 
-
+All content apart from where stated below is my own work.
 
 ### Content 
 
+- All social media sites and branding belongs to Help Me Pest Control Limited for whom the website was built with the consent of the company owner.
+- All font awesome icons including bug-favicon.svg from <a href="https://fontawesome.com/v4/license/">Font Awesome by Dave Gandy.</a>
+- Reviews section links to reviews hosted publicly by Google. Google fonts also from Google are imported on style.css line 1. Map is embedded link provided by Google Maps.
+- Services section pest videos are public Youtube videos hosted by Youtube and embedded with embedded links provided by Youtube.
+- All youtube videos are public videos provided by the British Pest Control Association.
+- Web accessibility evaluation provided by <a href="https://wave.webaim.org/">WAVE</a> for help in improving accessibility.
+- HTML and CSS validation provided by <a href="https://validator.w3.org/">W3</a>
+- Tutorial and explanations of CSS properties provided by <a href="https://www.w3schools.com/">W3</a>
 
-
-All font awesome icons including bug-favicon.svg from <a href="https://fontawesome.com/v4/license/">Font Awesome by Dave Gandy</a>
 
 ### Media
 
 The following images are under a free license:
-- bookshelves.webp image from <a href="https://www.freepik.com/free-photo/person-disinfecting-dangerous-area-while-wearing-protective-suit_12354032.htm#query=pest%20control&position=9&from_view=keyword&track=ais_user&uuid=74b5962d-b2ae-414e-9ccf-92a90d5b4e91">Freepik</a>
-- wall-custom-cropped-lossy.webp from <a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#page=2&position=44&from_view=collections&uuid=da580347-fa2d-42d1-a86d-b786c9ae3b06">Freepik</a>
-- pest-paper.webp image from <a href="https://www.freepik.com/free-photo/nurse-wears-protective-suit-mask-covid19-outbreak_10167009.htm#position=2">Freepik</a>
-- pier-sussex.webp image from <a href="https://www.freepik.com/free-photo/scenic-wooden-bridge-stretching-duxbury-bay_19441916.htm#fromView=search&page=1&position=38&uuid=fa6587fe-a7aa-4c96-b383-1cad86fb04a0">Freepik</a>
-- bedbug.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=5460">Public Health Image Library</a>
-- rat.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=14282">Public Health Image Library</a>
-- flea.webp image from <a href="https://phil.cdc.gov/details.aspx?pid=11436">Public Health Image Library</a>
+- bookshelves.webp image from <a href="https://www.freepik.com/free-photo/person-disinfecting-dangerous-area-while-wearing-protective-suit_12354032.htm#query=pest%20control&position=9&from_view=keyword&track=ais_user&uuid=74b5962d-b2ae-414e-9ccf-92a90d5b4e91">Freepik.</a>
+- wall-custom-cropped-lossy.webp from <a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#page=2&position=44&from_view=collections&uuid=da580347-fa2d-42d1-a86d-b786c9ae3b06">Freepik.</a>
+- pest-paper.webp image from <a href="https://www.freepik.com/free-photo/nurse-wears-protective-suit-mask-covid19-outbreak_10167009.htm#position=2">Freepik.</a>
+- pier-sussex.webp image from <a href="https://www.freepik.com/free-photo/scenic-wooden-bridge-stretching-duxbury-bay_19441916.htm#fromView=search&page=1&position=38&uuid=fa6587fe-a7aa-4c96-b383-1cad86fb04a0">Freepik.</a>
+- bedbug.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=5460">Public Health Image Library.</a>
+- rat.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=14282">Public Health Image Library.</a>
+- flea.webp image from <a href="https://phil.cdc.gov/details.aspx?pid=11436">Public Health Image Library.</a>
 
 The follow image is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license:
 
-- wasp.webp image from <a href="https://commons.wikimedia.org/wiki/File:Vespula_germanica_Richard_Bartz.jpg">Richard Bartz, Munich aka Makro Freak</a>
+- wasp.webp image from <a href="https://commons.wikimedia.org/wiki/File:Vespula_germanica_Richard_Bartz.jpg">Richard Bartz, Munich aka Makro Freak.</a>
 
 The following images are icensed under the Creative Commons Attribution-Share Alike Attribution-Share Alike 4.0 International, 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license:
 
-- weevil.webp image from <a href="https://en.wikipedia.org/wiki/File:Weevil_September_2008-1.jpg">Alvesgaspar</a>
-- moth.webp image from <a href="https://en.wikipedia.org/wiki/File:Moth_September_2008-3.jpg">Alvesgaspar</a>
+- weevil.webp image from <a href="https://en.wikipedia.org/wiki/File:Weevil_September_2008-1.jpg">Alvesgaspar.</a>
+- moth.webp image from <a href="https://en.wikipedia.org/wiki/File:Moth_September_2008-3.jpg">Alvesgaspar.</a>
 
 ## Other General Project Advice
