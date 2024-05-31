@@ -252,4 +252,13 @@ The following images are under a free license:
 - rat.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=14282">Public Health Image Library</a>
 - flea.webp image from <a href="https://phil.cdc.gov/details.aspx?pid=11436">Public Health Image Library</a>
 
+The follow image is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license:
+
+- wasp.webp image from <a href="https://commons.wikimedia.org/wiki/File:Vespula_germanica_Richard_Bartz.jpg">Richard Bartz, Munich aka Makro Freak</a>
+
+The following images are icensed under the Creative Commons Attribution-Share Alike Attribution-Share Alike 4.0 International, 3.0 Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic license:
+
+- weevil.webp image from <a href="https://en.wikipedia.org/wiki/File:Weevil_September_2008-1.jpg">Alvesgaspar</a>
+- moth.webp image from <a href="https://en.wikipedia.org/wiki/File:Moth_September_2008-3.jpg">Alvesgaspar</a>
+
 ## Other General Project Advice
