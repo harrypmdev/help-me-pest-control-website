@@ -385,5 +385,3 @@ The following images are icensed under the Creative Commons Attribution-Share Al
 
 - weevil.webp image from <a href="https://en.wikipedia.org/wiki/File:Weevil_September_2008-1.jpg">Alvesgaspar.</a>
 - moth.webp image from <a href="https://en.wikipedia.org/wiki/File:Moth_September_2008-3.jpg">Alvesgaspar.</a>
-
-## Other General Project Advice
