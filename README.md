@@ -212,7 +212,7 @@ The site was tested with Lighthouse and received the following results:
 It is of course important to note that Lighthouse is an automated anaylsis and improvements can likely be made to all four metrics.
 
 
-### Validator Testing 
+## Validator Testing 
 
 #### HTML
 - No errors returned using [W3C Validator](https://validator.w3.org/)
@@ -221,7 +221,11 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
 - No errors returned using [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 
-### Unfixed Bugs
+## Bugs
+
+|  Feature |  Testing action | Outcome |
+|---|---|---|
+|Navbar |Click on menu 
 
 ## Deployment
 
