@@ -228,6 +228,7 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
 |1 |WAVE evaluator shows empty form label | Fixed
 |2 |Services images not appearing as circles | Fixed
 3 | Services videos not appearing correctly | Fixed
+4 | WAVE evaluator shows skipped heading level on services.html | Fixed
 ||||
 
 <br>
@@ -240,6 +241,7 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
     ![bug-one](/assets/documentation/bug-one.png)
 
     </details>
+    <br>
 - This is a downside of using only HTML and CSS for a menu burger rather than Javascript.
 - An aria-label was added to the label.
     <details>
@@ -257,6 +259,7 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
     ![bug-two](/assets/documentation/bug-two.png)
 
     </details>
+    <br>
 - Setting the border radius property of an element to 50% does not inherently make the image a circle if the image is not a square.
 - Complex solutions may be available, considering the project scope the images were simply cropped to be perfect squares.
     <details>
@@ -274,6 +277,7 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
     ![bug-three](/assets/documentation/bug-three.png)
 
     </details>
+    <br>
 - Embedded Youtube videos do not behave exactly like text.
 - Putting the Youtube video inside another flexbox div and setting its flex properties so that the video appeared in the center solved the problem
     <details>
@@ -282,6 +286,17 @@ It is of course important to note that Lighthouse is an automated anaylsis and i
     ![bug-three-solved](/assets/documentation/bug-three-fixed.png)
 
     </details>
+
+**4.**
+- The WAVE evaluator showed that the services page had skipped a heading level. This is an accessibility problem and bad practice. Headings should always run consecutively.
+    <details>
+    <summary>Bug four</summary>
+
+    ![bug-four](/assets/documentation/bug-four.png)
+
+    </details>
+    <br>
+- A h1 heading had been used for the website logo, then h3 headings for the flexbox pest titles. The flexbox pest titles were changed to h2 headings.
 
 
 ## Deployment
