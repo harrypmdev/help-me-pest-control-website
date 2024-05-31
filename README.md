@@ -248,5 +248,8 @@ The following images are under a free license:
 - wall-custom-cropped-lossy.webp from <a href="https://www.freepik.com/free-photo/people-disinfecting-together-dangerous-area_12354142.htm#page=2&position=44&from_view=collections&uuid=da580347-fa2d-42d1-a86d-b786c9ae3b06">Freepik</a>
 - pest-paper.webp image from <a href="https://www.freepik.com/free-photo/nurse-wears-protective-suit-mask-covid19-outbreak_10167009.htm#position=2">Freepik</a>
 - pier-sussex.webp image from <a href="https://www.freepik.com/free-photo/scenic-wooden-bridge-stretching-duxbury-bay_19441916.htm#fromView=search&page=1&position=38&uuid=fa6587fe-a7aa-4c96-b383-1cad86fb04a0">Freepik</a>
+- bedbug.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=5460">Public Health Image Library</a>
+- rat.webp image from <a href="https://phil.cdc.gov/Details.aspx?pid=14282">Public Health Image Library</a>
+- flea.webp image from <a href="https://phil.cdc.gov/details.aspx?pid=11436">Public Health Image Library</a>
 
 ## Other General Project Advice
