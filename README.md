@@ -362,7 +362,7 @@ All content apart from where stated below is my own work.
 - All six Youtube videos are public videos produced by the British Pest Control Association.
 - Web accessibility evaluation provided by <a target="_blank" href="https://wave.webaim.org/">WAVE</a> for help in improving accessibility.
 - HTML and CSS validation provided by <a target="_blank" href="https://validator.w3.org/">W3</a>
-- Tutorial and explanations of CSS properties provided by <a target="_blank" href="https://www.w3schools.com/">W3</a>
+- Tutorials and explanations of CSS properties provided by <a target="_blank" href="https://www.w3schools.com/">W3</a>
 - README.md deployment section edited from Code Institute demonstration README.md page as process is the same.
 
 
@@ -377,7 +377,7 @@ The following images are under a free license:
 - rat.webp image from <a target="_blank" href="https://phil.cdc.gov/Details.aspx?pid=14282">Public Health Image Library.</a>
 - flea.webp image from <a target="_blank" href="https://phil.cdc.gov/details.aspx?pid=11436">Public Health Image Library.</a>
 
-The follow image is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license:
+The following image is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license:
 
 - wasp.webp image from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Vespula_germanica_Richard_Bartz.jpg">Richard Bartz, Munich aka Makro Freak.</a>
 
