@@ -239,11 +239,11 @@ All content apart from where stated below is my own work.
 
 ### Content 
 
-- All social media sites and branding belongs to Help Me Pest Control Limited for whom the website was built with the consent of the company owner.
+- All social media pages and branding belongs to Help Me Pest Control Limited for whom the website was built with the consent of the company owner.
 - All font awesome icons including bug-favicon.svg from <a href="https://fontawesome.com/v4/license/">Font Awesome by Dave Gandy.</a>
 - Reviews section links to reviews hosted publicly by Google. Google fonts also from Google are imported on style.css line 1. Map is embedded link provided by Google Maps.
-- Services section pest videos are public Youtube videos hosted by Youtube and embedded with embedded links provided by Youtube.
-- All youtube videos are public videos provided by the British Pest Control Association.
+- Services section pest videos are public Youtube videos hosted by Youtube and utilised with embedded links provided by Youtube.
+- All six Youtube videos are public videos produced by the British Pest Control Association.
 - Web accessibility evaluation provided by <a href="https://wave.webaim.org/">WAVE</a> for help in improving accessibility.
 - HTML and CSS validation provided by <a href="https://validator.w3.org/">W3</a>
 - Tutorial and explanations of CSS properties provided by <a href="https://www.w3schools.com/">W3</a>
