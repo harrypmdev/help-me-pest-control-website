@@ -1,7 +1,7 @@
 # Help Me Pest Control
 
 
-**Help Me Pest Control** is a website to inform users of common pest issues and how they can seek help through the company Help Me Pest Control Ltd based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
+Help Me Pest Control is a website to inform users of common pest issues and how they can seek help through the company **Help Me Pest Control Ltd** based in Worthing, Sussex. The site is targeted towards users already having a pest problem and looking for solutions.
 
 ![Responsive Mockup](/assets/documentation/responsive.png)
 
