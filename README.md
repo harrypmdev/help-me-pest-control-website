@@ -310,7 +310,7 @@ The site was tested with Lighthouse and received the following results:
     </details>
 
 **3.**
-- The Youtube videos in the services.html pests flexbox appeared either on the left side of the flexbox only, or with large black bars on either side of the video if it was stretched to the full side of the flexbox.
+- The Youtube videos in the services.html pests flexbox appeared either on the left side of the flexbox only, or with large black bars on either side of the video if it was stretched to the full size of the flexbox.
     <details>
     <summary>Bug three</summary>
 
