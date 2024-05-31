@@ -12,7 +12,7 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 
 - The navbar is at the top of all pages and contains a link respective to each page.
 - It allows for easy navigation of the website without reliance on browser features such as the 'back' or 'forwards' buttons.
-- The navbar is condensed into a burger for mobile screen sizes
+- The navbar is condensed into a burger for mobile screen sizes.
 
 <details>
 <summary> Navbar screenshot (mobile)</summary>
@@ -84,7 +84,7 @@ Help Me Pest Control is a website to inform users of common pest issues and how 
 
 **Footer**
 
-- The footer is shown at the bottom of all pages like the navbar is at the top, lending the site aesthetic cohesion and design consitency
+- The footer is shown at the bottom of all pages like the navbar is at the top, lending the site aesthetic cohesion and design consitency.
 - Four social media icons are shown which link to their relevant pages and give the user more ways to view the company in action and make contact.
 
 <details>
@@ -150,7 +150,7 @@ Help Me Pest Control is a functional and complete website. There are however som
 
 ###  Feature testing specific to mobile screen size
 
-The site has been tested on mobile, tablet, and laptop/PC screen sizes. The following is testing done on an Iphone XR (414x896) screen simulator, though other mobile screen sizes have been tried.
+The site has been tested on mobile, tablet, and laptop/PC screen sizes. The following is testing done on an iPhone XR (414x896) screen simulator, though other mobile screen sizes have been tried.
 
 |  Feature |  Testing action | Outcome |
 |---|---|---|
