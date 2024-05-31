@@ -153,7 +153,7 @@ main {
     display: none;
 }
 
-#call-us:hover {
+.call-us:hover {
     opacity: 0.5;
 }
 
