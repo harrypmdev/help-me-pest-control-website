@@ -239,9 +239,11 @@ The live link can be found here - https://harrypmdev.github.io/help-me-pest-cont
 
 ### Content 
 
-### Media
 
-Some images to be changed before project submission
+
+All font awesome icons including bug-favicon.svg from <a href="https://fontawesome.com/v4/license/">Font Awesome by Dave Gandy</a>
+
+### Media
 
 The following images are under a free license:
 - bookshelves.webp image from <a href="https://www.freepik.com/free-photo/person-disinfecting-dangerous-area-while-wearing-protective-suit_12354032.htm#query=pest%20control&position=9&from_view=keyword&track=ais_user&uuid=74b5962d-b2ae-414e-9ccf-92a90d5b4e91">Freepik</a>
